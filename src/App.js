@@ -9,17 +9,17 @@ function App() {
     axios
       .get("https://api.quotable.io/random")
       .then((res) => {
-        console.log("Tıklandı");
+        console.log("clicked");
         setQuote(res.data.content);
       })
       .catch((err) => console.log(err));
   };
 
   return (
-    <div className="flex flex-col h-screen w-screen justify-center items-center">
+    <div className="flex flex-col h-screen w-screen justify-center items-center ">
       <div
         onClick={() => getQuote()}
-        className="p-2 bg-slate-200 hover:shadow-lg rounded-lg cursor-pointer"
+        className="p-2 bg-slate-400 hover:shadow-lg rounded-lg cursor-pointer"
       >
         <button>Get Random Quote</button>
       </div>
@@ -34,15 +34,15 @@ function App() {
       )}
       <button
         onClick={() => setQuote("")}
-        className="bg-red-200 p-2 rounded-lg mt-10"
+        className="bg-red-400 p-2 rounded-lg mt-10"
       >
         Clear
       </button>
       <button
-        className="bg-red-200 p-2 rounded-lg mt-10"
+        className="bg-red-400 p-2 rounded-lg mt-10"
         onClick={() => setHidden(!hidden)}
       >
-        {hidden ? "Göster" : "Gizle"}
+        {hidden ? "Show" : "Hide"}
       </button>
     </div>
   );
