@@ -21,11 +21,14 @@ To create Quote Generator to improve basic React and Tailwind skills.
 ```
 React Quote Generator(folder)
 
-|----README.md                   
-|----index.html
-|----style.css
-|----app.js
-|----calculator.gif
+|----public(folder)                  
+|----src(folder)
+|----readme.md
+|----package.json
+|----package-log.json
+|----postcss.config.js
+|----tailwind.config.js
+
 
 
 ```
@@ -45,33 +48,24 @@ React Quote Generator(folder)
 ### Built with
 
 In this project; <br>
-- I made a calculator like IOS Calculator <br>
-- I used capturing method in order to access each button's innerText <br>
-- I used Switch Statement in the function. <br>
-- I divided the container two parts: <br>
-    *One of them is the screen part where the result is displayed <br>
-    *The other part is the div containing buttons <br>
-- You can calculate basic Math operations with this calcuator. <br>
-- You can sum,subtract,divide and multiply the numbers. <br>
-- When calculation is done and pressing "=" button, the result will be shown in the display unit which is above the buttons<br>
-- You can calculate the percentage of the numbers pressing "%" button.<br>
-- You can not press “.” button if the number in the screen already includes period.<br>
-- You can not press "+,-,*,/" buttons if the numbers in the screen ends with period.<br>
-- You can not press operation sign buttons if there is no number in the screen.<br>
-- You can not press operation sign buttons in a row.<br>
-- You can change the sign of the number clicking "±".<br>
+- I made a Quote Generator with React and Tailwind <br>
+- When you click to Get Random Quote, random quote will be created. <br>
+- When you clicked to clear button, quote will be deleted <br>
+- When you clicked to hide button , quote will be dissapear and hide button transform to show button to show again the quote <br>
+
+
 
 
 
 ## Notes
 
-- You can use HTML,and CSS, JS to complete this project.
+- You can use HTML,and CSS, JS , REACT AND TAILWIND to complete this project.
 
 ### Useful resources
 
 - [W3 Schools](https://www.w3schools.com/) 
 - [MDN](https://developer.mozilla.org/en-US/) 
-
+- [TAILWIND](https://tailwindcss.com/) 
 
 
 <center> &#8987; Happy Coding  &#9997; </center>
