@@ -28,6 +28,7 @@ React Quote Generator(folder)
 |----package-log.json
 |----postcss.config.js
 |----tailwind.config.js
+|----quote.gif
 
 
 
@@ -35,7 +36,7 @@ React Quote Generator(folder)
 
 ## Screenshot
 <p align="center">
-<a href="https://react-quotes-app-us.netlify.app/"><img src=".gif" alt="screenshot"></a>
+<a href="https://react-quotes-app-us.netlify.app/"><img src="quote.gif" alt="screenshot"></a>
 </p>
 
 
