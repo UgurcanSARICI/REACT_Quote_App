@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Project : Quote Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Project Skeleton ](#project-skeleton)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## The challenge
+To create Quote Generator to improve basic React and Tailwind skills.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Skeleton 
 
-### `npm run build`
+```
+React Quote Generator(folder)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+|----README.md                   
+|----index.html
+|----style.css
+|----app.js
+|----calculator.gif
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
+## Screenshot
+<p align="center">
+<a href="https://react-quotes-app-us.netlify.app/"><img src=".gif" alt="screenshot"></a>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Links
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://react-quotes-app-us.netlify.app/">Live Website</a>
+<hr>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Built with
 
-## Learn More
+In this project; <br>
+- I made a calculator like IOS Calculator <br>
+- I used capturing method in order to access each button's innerText <br>
+- I used Switch Statement in the function. <br>
+- I divided the container two parts: <br>
+    *One of them is the screen part where the result is displayed <br>
+    *The other part is the div containing buttons <br>
+- You can calculate basic Math operations with this calcuator. <br>
+- You can sum,subtract,divide and multiply the numbers. <br>
+- When calculation is done and pressing "=" button, the result will be shown in the display unit which is above the buttons<br>
+- You can calculate the percentage of the numbers pressing "%" button.<br>
+- You can not press “.” button if the number in the screen already includes period.<br>
+- You can not press "+,-,*,/" buttons if the numbers in the screen ends with period.<br>
+- You can not press operation sign buttons if there is no number in the screen.<br>
+- You can not press operation sign buttons in a row.<br>
+- You can change the sign of the number clicking "±".<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- You can use HTML,and CSS, JS to complete this project.
 
-### Analyzing the Bundle Size
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [W3 Schools](https://www.w3schools.com/) 
+- [MDN](https://developer.mozilla.org/en-US/) 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<center> &#8987; Happy Coding  &#9997; </center>
